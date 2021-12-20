@@ -24,7 +24,7 @@ function App() {
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <Link to='/photos' class="nav__link ">
+                        <Link to='/' class="nav__link ">
                             <i class='bx bx-image nav__icon'></i>
                             <span class="nav__name">Pictures</span>
                         </Link>
@@ -62,7 +62,7 @@ function App() {
         </Offcanvas.Body>
       </Offcanvas>
         <Routes>
-          <Route path="photos" element={<SimpleInfiniteList />}></Route>
+          <Route path="/" element={<SimpleInfiniteList />}></Route>
           <Route path="videos" element={<Vids />} />
           <Route path="/:id" element={<PhotoDetails/>}></Route>
           <Route path ='/gfycat' element={<Gfycat/>}/>
