@@ -108,6 +108,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2px
 }
 
 .nav__img {
